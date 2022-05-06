@@ -1,0 +1,195 @@
+body {
+  min-width: 290px;
+  color: #270A11;
+  background-color: #FCF3A6;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 320px;
+  height: 100%;
+  background-color: #2F2A45;
+}
+
+#navbar header {
+  color: #FCF3A6;
+}
+
+header {
+  color: #270A11;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+.main-section {
+  border-bottom: 2px #270A11 solid;
+  margin: 10px 0;
+}
+
+#video-holder {
+  padding: 2.2rem;
+  margin: auto;
+  text-align: center;
+}
+
+#video {
+  width: 640px;
+  height: 480px;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: #270A11;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #FCF3A6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+.center {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  width: 60%;
+}
+
+.result {
+  border: 2px #270A11 solid;
+  padding: 7px;
+  background-color: #2F2A45;
+  color: #FCF3A6;
+}
+
+.result span {
+  color: #fff;
+}
+
+.image-description {
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+section article {
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  ;
+  font-weight: 500;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.6;
+  background-color: #FF0BAC;
+  color: #270A11;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.span-example {
+  border: 1px solid white;
+  background-color: lime;
+}
+
+@media only screen and (max-width: 815px) {
+
+  .main-section {
+    margin-top: 100px;
+  }
+
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  #navbar {
+    background-color: #2F2A45;
+    position: fixed;
+    top: inherit;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 350px;
+    border: none;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  #navbar ul a {
+    color: #FCF3A6;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0;
+  }
+
+  #video {
+    height: auto;
+    width: auto;
+  }
+
+  #reference {
+    margin-top: 10px;
+    margin-bottom: 240px;
+  }
+
+  #navbar header {
+    color: #FCF3A6;
+    background-color: #2F2A45;
+  }
+
+}
